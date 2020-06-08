@@ -1,0 +1,9 @@
+export const getPage = state => state.reducer.page
+export const getUserId = state => state.reducer.userId
+export const getFormData = state => state.form.editUser
+export const getAddForm = state => state.form.addUser
+export const getUsers = state => state.reducer.users
+export const getTotalPages = state => state.reducer.total_pages
+export const getCurrentPage = state => state.reducer.page
+export const getCurrentUser = state => state.reducer.currentUser
+export const getEditMode = state => state.reducer.editMode
